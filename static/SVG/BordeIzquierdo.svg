@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 461.46 86">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #362f62;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #818fb4;
+      }
+    </style>
+  </defs>
+  <g id="Capa_9" data-name="Capa 9">
+    <g id="Borde">
+      <rect class="cls-2" x="1.04" y="57.33" width="341.4" height="28.67" transform="translate(343.49 143.33) rotate(-180)"/>
+      <rect class="cls-1" x="0" y="0" width="461.46" height="62.67" transform="translate(461.46 62.67) rotate(-180)"/>
+    </g>
+  </g>
+</svg>

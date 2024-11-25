@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470.86 498.08">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #362f62;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #818fb4;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #190938;
+        stroke-miterlimit: 10;
+        stroke-width: 7px;
+      }
+    </style>
+  </defs>
+  <g id="Capa_9" data-name="Capa 9">
+    <g id="Fig.fotos">
+      <polygon class="cls-2" points="403.13 141.66 399.16 371.13 216.19 488.71 37.2 376.84 41.17 147.38 224.14 29.79 403.13 141.66"/>
+      <ellipse class="cls-1" cx="42.2" cy="444.67" rx="8.37" ry="8.34" transform="translate(-246.3 103.67) rotate(-34.81)"/>
+      <ellipse class="cls-1" cx="80.9" cy="482.42" rx="15.69" ry="15.64" transform="translate(-260.93 132.52) rotate(-34.81)"/>
+      <ellipse class="cls-1" cx="390.43" cy="8.37" rx="8.34" ry="8.37" transform="translate(0 16.97) rotate(-2.49)"/>
+      <ellipse class="cls-1" cx="410.83" cy="63.89" rx="15.64" ry="15.69" transform="translate(-2.39 17.91) rotate(-2.49)"/>
+      <polygon class="cls-3" points="466.84 228.42 355.08 447.72 123.67 477.8 4.02 288.57 115.78 69.26 347.19 39.19 466.84 228.42"/>
+    </g>
+  </g>
+</svg>

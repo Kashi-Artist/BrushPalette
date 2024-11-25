@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73 73">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: Candara-BoldItalic, Candara;
+        font-size: 62.16px;
+        font-style: italic;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #a5e9d2;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Capa_9" data-name="Capa 9">
+    <g id="Icono4">
+      <circle class="cls-2" cx="36.5" cy="36.5" r="36.5"/>
+      <text class="cls-1" transform="translate(18.62 53.36) scale(1.13 1)"><tspan x="0" y="0">4</tspan></text>
+    </g>
+  </g>
+</svg>

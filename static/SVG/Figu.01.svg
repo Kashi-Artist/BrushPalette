@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1870.47 230">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #362f62;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        stroke: #362f62;
+        stroke-width: 17px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke: #818fb4;
+        stroke-width: 20px;
+      }
+    </style>
+  </defs>
+  <g id="Capa_9" data-name="Capa 9">
+    <g id="_01" data-name="01">
+      <ellipse class="cls-1" cx="16.01" cy="101.82" rx="15.98" ry="16.13" transform="translate(-36.66 13.22) rotate(-21.8)"/>
+      <path class="cls-2" d="M135.56,15.12c46.04-18.41,97.86,2.9,115.73,47.61,17.88,44.7-4.96,95.87-51,114.28-46.04,18.41-97.86-2.9-115.73-47.61"/>
+      <path class="cls-3" d="M144.24,31c46.04-18.41,97.86,2.9,115.73,47.61,17.88,44.7-4.96,95.87-51,114.28-46.04,18.41-97.86-2.9-115.73-47.61"/>
+      <ellipse class="cls-1" cx="94.12" cy="49.76" rx="29.97" ry="30.25" transform="translate(-11.75 38.5) rotate(-21.8)"/>
+    </g>
+    <g id="_02" data-name="02">
+      <ellipse class="cls-1" cx="1792.17" cy="86.33" rx="8.37" ry="8.34" transform="translate(271.46 1038.58) rotate(-34.81)"/>
+      <path class="cls-2" d="M1853.33,142.12c14.78,21.25,10.13,50.04-10.38,64.3-20.51,14.26-49.11,8.59-63.89-12.66-14.78-21.25-10.13-50.04,10.38-64.3"/>
+      <path class="cls-3" d="M1844.56,147.03c14.78,21.25,9.87,50.85-10.64,65.11-20.51,14.26-49.11,8.59-63.89-12.66-14.78-21.25-10.13-50.04,10.38-64.3"/>
+      <ellipse class="cls-1" cx="1830.88" cy="124.08" rx="15.69" ry="15.64" transform="translate(256.84 1067.43) rotate(-34.81)"/>
+    </g>
+  </g>
+</svg>

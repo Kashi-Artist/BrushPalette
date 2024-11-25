@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRUSH PALETTE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="\static\css\style.css">
+
+
+</head>
+<body>
+
+     
+     <!-- Linea negra superior -->
+    <section class="container-fluid section-tree bg-colored">
+        <div class="row">
+            <div class="col-lg-12 col-12 d-flex flex-column ">
+                <!-- Contenido de la sección -->
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- Seccion de logo, titulo principal, y "slogan"-->
+    <section class="container-fluid" >
+        <div class="row">
+            <div class="col-lg-5 col-12 d-flex flex-column justify-content-center align-items-center  align-items-lg-end order-first order-lg-1 ">
+                <img src="/static/SVG/Logo diseño.svg" class="img-fluid" alt="logo1" style= "width: 35%; height: auto;">
+            </div>
+
+            <div class="col-lg-7 col-12 d-flex flex-column justify-content-center text-center align-items-center  align-items-lg-start order-last order-lg-2 " >
+                <h1 style="font-size: 60px" >BRUSH PALETTE</h1>
+                <div >- Aplicale color a cada una de tus ideas -</div>
+            </div>
+
+        </div>
+    </section >
+
+     <!-- Carrusel con imagenes-->
+    <section class="container-fluid section-one mt-3">
+        
+        <div class=" row"> 
+            <div class="col-lg-6 col-12 d-flex flex-column order-first order-lg-1">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/static/IMAGENES PRUEBA/imagen_1.png" class="d-block w-100" alt="imagen_1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/static/IMAGENES PRUEBA/imagen_2.png" class="d-block w-100" alt="imagen_2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/static/IMAGENES PRUEBA/imagen_3.png" class="d-block w-100" alt="imagen_3">
+                    </div>
+                    </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                </div>
+            </div>
+            
+            <!-- TITULOS Y BOTONES DE COMO GENERAR LAS PALETAS (ESTILOS, TIPO, COLOR)-->
+
+            <div class="col-lg-6 col-12 mt-3 d-flex flex-column text-center order-last order-lg-2">
+            <form id="Crearpaleta" >
+                <h4 style="font-size: 30px;">¿Cómo generar tu paleta?</h4>
+                <div class="col text-center mt-4">
+                    <div >Seleciona el estilo para tu paleta <br>(Minimalista, Abstracto, Vibrante)</div>
+                    
+                        <div class=" col mt-4"> 
+                       
+                            <select id="estilo" name="estilo">
+                                <option value="Minimalista">Minimalista</option>
+                                <option value="Abstracto">Abstracto</option>
+                                <option value="Vibrante">Vibrante</option>
+                
+                            </select>
+                        </div>
+                   
+                </div>
+
+
+                <div class="col text-center mt-3">
+                    <div>Elige el tipo de paleta que se ajusta a tus ideas <br>(Fria, Calida)</div>
+                        <div class= "col mt-3">   
+                            <select id="tipoPaleta" name="tipoPaleta">
+                                <option value="Calida">Cálida</option>
+                                <option value="Fria">Fría</option>
+                            </select>
+                        </div>
+                    
+                </div>
+            </form>
+
+                <div class="col text-center mt-4">   
+                  
+                        <div class ="selectcolorprincipal">  
+                            <form id="paletteForm">
+                                <div class="tercerpaso">Define un color principal <br>(Opcional)</div>
+                                <button type="button" id="chooseColor">Sí</button>
+                                <button type="button" id="chooseColorNo">No</button>
+                            <div id="colorPickerContainer" style="display: none;">
+                                <label for="colorPrincipal">Color Principal (RGB):</label>
+                                <input type="color" id="colorPrincipal" name="colorPrincipal" value="#000000">
+                            </div>
+                        </div>
+       
+                </div>
+                <div class="col text-center mt-1 ">   
+                    <div>Generar paleta automáticamente</div>
+                        <div class="col mt-3">
+                            <button type="submit">Generar Paleta</button>
+                        </div>
+                </div>
+            </form>
+            </div>
+        </form>           
+        </div>
+    </section >
+
+    <section class="container mt-5">
+        <div id="result"></div> 
+    </section>
+
+    
+    
+    <!-- SECCION PARA APLICAR LAS PALETAS A LAS IMAGENES-->
+    <section class="container section-two mt-5 ">
+        <div class="row">
+            <div class="col-lg-12 col-12 mt-3 d-flex flex-column text-center order-last order-lg-2 mt-5">
+                <h6 style="font-size: 30px;">Aplica tu paleta favorita a una imagen</h6>
+            </div>
+        </div>
+        
+        <div class ="row-section-one">
+            <p class="col-lg-12 col-12 mt-3 d-flex flex-column text-center order-last order-lg-2 mt-3">Con esta herramienta podrás previsualizar la armonia creada por los colores de la paleta que elijas en una imagen de tu elección. </p>
+            <div class="col-lg-12 col-12 mt-3 d-flex flex-column text-center order-last order-lg-2 mt-3">  
+                <form id="imageForm" enctype="multipart/form-data">
+                    <input type="file" id="imageInput" name="image" accept="image/*">
+                    <button type="submit">Aplicar Paleta</button>
+                </form>
+            
+                <div class="processed-image-container" id="processedImageContainer" style="display: none;">
+                    <h2>Imagen procesada:</h2>
+                    <img id="processedImage" alt="Imagen Procesada" class="processed-image">
+                </div>
+        
+            </div>
+        </div>
+    </section>
+   
+
+
+    <!-- Linea negra INFERIOR -->
+    <section class="container-fluid section-tree mt-5  bg-colored">      <!-- BG COLORED SE MODIFICA EN EL CSS-->
+        <div class="row">
+            <div class="col-lg-12 col-12 d-flex flex-column">
+            </div>
+        </div>
+    </section>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/static/js/script.js"></script>
+    
+
+</body>
+</html>
